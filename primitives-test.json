@@ -1,0 +1,59 @@
+{
+  "colors": {
+    "brand-000": { "value": "#EEF9FF" },
+    "brand-050": { "value": "#DAF6FF" },
+    "brand-100": { "value": "#C4F3FF" },
+    "brand-200": { "value": "#9AE6FF" },
+    "brand-300": { "value": "#5FD1FF" },
+    "brand-400": { "value": "#1AB4FF" },
+    "brand-500": { "value": "#0094E4" },
+    "brand-600": { "value": "#007AC5" },
+    "brand-700": { "value": "#0060A4" },
+    "brand-800": { "value": "#004982" },
+    "brand-900": { "value": "#003461" },
+
+    "silver-000": { "value": "#FFFFFF" },
+    "silver-050": { "value": "#FCFCFD" },
+    "silver-100": { "value": "#F5F7FA" },
+    "silver-200": { "value": "#EBF0F4" },
+    "silver-300": { "value": "#E1E8EF" },
+    "silver-400": { "value": "#D5DEE7" },
+    "silver-500": { "value": "#C6D1DD" },
+    "silver-600": { "value": "#B6C4D2" },
+    "silver-700": { "value": "#A6B7C9" },
+    "silver-800": { "value": "#96AAC0" },
+    "silver-900": { "value": "#8298AF" },
+
+    "gray-000": { "value": "#758AA3" },
+    "gray-050": { "value": "#677D98" },
+    "gray-100": { "value": "#607590" },
+    "gray-200": { "value": "#586B84" },
+    "gray-300": { "value": "#4F6077" },
+    "gray-400": { "value": "#455468" },
+    "gray-500": { "value": "#3B4758" },
+    "gray-600": { "value": "#313B4A" },
+    "gray-700": { "value": "#272F3A" },
+    "gray-800": { "value": "#1B1F28" },
+    "gray-900": { "value": "#000000" }
+  },
+
+  "neutrals": {
+    "white": { "value": "{colors.silver-000}" }
+  },
+
+  "core": {
+        "bold": {
+          "brand-bold": {"value": "{colors.brand-500}" },
+          "neutral-bold": {"value": "{colors.gray-300}" }
+        },
+        "subtle": {
+          "brand-subtle": {"value": "{colors.brand-200}" },
+          "neutral-subtle": {"value": "{colors.silver-200}" }
+        },
+        "minimal": {
+          "brand-minimal": {"value": "{core.subtle.brand-subtle}" },
+          "neutral-minimal": {"value": "{core.subtle.brand-subtle} " }
+        }
+
+      }
+    }
